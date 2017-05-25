@@ -33,7 +33,7 @@
           <select id="secret"
                   class="form-control"
                   name="secret"
-                  ngModel>
+                  [ngModel]="defaultValue">
             <option value="pet">Your first Pet?</option>
             <option value="teacher">Your first teacher?</option>
           </select>
