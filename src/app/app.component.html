@@ -38,6 +38,13 @@
             <option value="teacher">Your first teacher?</option>
           </select>
         </div>
+        <textarea
+          name="QA"
+          rows="3"
+          class="form-control"
+          [(ngModel)]="answer"></textarea>
+        <br>
+        <p>You answered: {{ answer }}</p>
         <button
           class="btn btn-primary"
           type="submit"
