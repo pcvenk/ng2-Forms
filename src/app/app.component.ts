@@ -18,6 +18,6 @@ export class AppComponent {
   // }
 
   onSubmit() {
-    console.log(this.signUpForm)
+    console.log(this.signUpForm);
   }
 }
