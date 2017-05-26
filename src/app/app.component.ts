@@ -22,6 +22,8 @@ export class AppComponent {
 
   suggestUserName() {
     const suggestedName = 'Superuser';
+    //setvalue() overrides the whole form
+
     // this.signUpForm.setValue({
     //   userData: {
     //     username: suggestedName,
@@ -32,6 +34,7 @@ export class AppComponent {
     //   gender: 'male'
     // });
 
+    //patchValue overrides only a predefined portion of the form
     this.signUpForm.form.patchValue({
       userData: {
         username: suggestedName
